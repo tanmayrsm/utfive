@@ -1790,7 +1790,8 @@ h1, h2, h3, h4, h5, h6 {
   cursor: pointer; }
   @media (max-width: 767px) {
     #mobile-nav-toggle {
-      top: 22px; } }
+      top: 22px;
+      margin-left: 60px; } }
 
 #mobile-nav-toggle i {
   color: black;
