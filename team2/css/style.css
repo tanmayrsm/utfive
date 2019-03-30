@@ -74,6 +74,9 @@ a:hover{
   .team-member h4{
     font-size: 40px;
   }
+   .team-member p{
+    font-size: 35px;
+  }
 }
 .team-member figcaption ul {
   list-style: none;
