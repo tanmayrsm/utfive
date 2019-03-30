@@ -18,12 +18,14 @@
 	<title>Utfive</title>
 
 	<link href="https://fonts.googleapis.com/css?family=Poppins:400,600|Roboto:400,400i,500" rel="stylesheet">
-	<!--
+	<link rel="stylesheet" href="/animations.css" type="text/css">
+	
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
-	<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>-->
+	<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<!--
 			CSS
 			============================================= -->
@@ -171,11 +173,13 @@
 </head>
 
 <body id="home">
-	<!-- start header Area 
+	<!-- start header Area -->
 	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init({duration: 1200});
-  </script>-->
+  </script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="/css3-animate-it.js"></script>
 	
 	<header id="headero" style="background-color: white;color: black;" >
 		<div class="container main-menu" style="background-color: white;">
@@ -225,7 +229,7 @@
 					<h2 style="display:block;margin:0.4em auto;font-family: UEFA Supercup;text-align: center;font-weight: bold;" data-aos="flip-down" class = "animated zoomInLeft">
 						utfive-<br> India's Most Credible News App
 					</h2>
-					<p style="text-align: center;font-family: UEFA Supercup;font-size: 18px;" data-aos="flip-left">Helps you to have a clear and well-informed opinion about topics that you care for</p>
+					<p style="text-align: center;font-family: UEFA Supercup;font-size: 18px;" data-aos="flip-left" class = "animated zoomIn">Helps you to have a clear and well-informed opinion about topics that you care for</p>
 					<!--
 					<div class="download-button d-flex flex-row justify-content-start" style="">
 						
@@ -242,7 +246,7 @@
 						</div>
 					</div> -->	
 					<div id="buto" style="align-self: center;">	
-					<button id="foo"  style="display:block;margin:0.4em auto;width: 60%;height: 50%;background-color: transparent;border-radius: 10px;border:2px solid black;align-self: center;"><img src="img/ps.png" style="width: 20%;height: 20%;"><span style="font-size: 13px;font-weight: bold;font-family: UEFA Supercup;" data-aos="flip-right" onclick="window.open('https://play.google.com/store/apps/details?id=com.utfive')">DOWNLOAD UTFIVE APP</span></button>
+					<button id="foo" class="animated infinite bounce delay-2s" style="display:block;margin:0.4em auto;width: 60%;height: 50%;background-color: transparent;border-radius: 10px;border:2px solid black;align-self: center;"><img src="img/ps.png" style="width: 20%;height: 20%;"><span style="font-size: 13px;font-weight: bold;font-family: UEFA Supercup;" data-aos="flip-right" onclick="window.open('https://play.google.com/store/apps/details?id=com.utfive')">DOWNLOAD UTFIVE APP</span></button>
 					</div>		
 
 				</div>
@@ -257,22 +261,22 @@
 
 	<!-- Start about Area -->
 
-	<section class="about-area" data-aos="flip-right">
+	<section class="about-area" data-aos="flip-right" class="animated bounce">
 		<div class="container" style="padding:20px;border-radius:10px;background-color:rgba(192,192,192,0.3)">
 			<div class="row align-items-center">
 				
 				<div class="col-lg-5 home-about-left">
-					<h1 style="font-family: UEFA Supercup;">
+					<h1 style="font-family: UEFA Supercup;" class="animated bounce">
 						What is utfive
 					</h1>
-					<img class="img-fluid" src="img/banner_img.png" data-aos="zoom-in" alt="" style="width: 80%;height: 60%;" data-aos="fade-up-right">
+					<img class="img-fluid" src="img/banner_img.png" data-aos="zoom-in" alt="" style="width: 80%;height: 60%;" data-aos="fade-up-right" >
 				</div>
 				<div class="offset-lg-1 col-lg-6 home-about-right">
 					<h1 style="font-family: UEFA Supercup;text-align: center;">
 						What is <br>
 						utfive <br>						
 					</h1>
-					<p style="text-align: left;font-family: UEFA Supercup;font-size: 18px;" data-aos="fade-up-left">
+					<p style="text-align: left;font-family: UEFA Supercup;font-size: 18px;" data-aos="fade-up-left" class="wow bounceInUp">
 						We are building a technology-based solution which is powered by a strong community of renowned experts to help you eliminate misinformation from your life.<br>
 Certain political groups or media publishers try to manipulate public opinion and bar them to think critically and objectively about important topics by spreading misinformation.<br>
 Our ‘filtr’ platform helps you analyze any content better by supercharging your knowledge around it so that you can easily filter out misinformation from your life and build a clear and well-informed opinion about important topics. So, now you don’t directly consume a piece of content but you first critically think about it, understand the hidden agenda behind it and then build an opinion. All you need to do is submit it to our platform.<br>
