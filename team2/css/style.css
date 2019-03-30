@@ -72,10 +72,10 @@ a:hover{
     font-size: 30px;
   }
   .team-member h4{
-    font-size: 40px;
+    font-size: 60px;
   }
-   .team-member p{
-    font-size: 35px;
+  .team-member p{
+    font-size: 50px;
   }
 }
 .team-member figcaption ul {
@@ -174,4 +174,30 @@ a:hover{
 .team-member figure img{
   width: 100%;
   height: 100%;
+}
+#logo img{
+  width: 75px;
+  height: 75px;
+}
+#logo ul{
+  list-style-type: none;
+  display: inline;
+  float: right;
+  padding: 20px;
+}
+#logo ul li{
+  padding: 60px;
+  margin-top: 120px;
+  display: inline;
+  color: black;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+@media (max-width: 960px){
+  #logo ul li{
+  padding: 10px;
+  display: inline;
+  color: black;
+  font-weight: bold;
+}
 }
