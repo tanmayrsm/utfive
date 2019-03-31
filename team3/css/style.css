@@ -156,6 +156,10 @@ a:hover{
   width:500px;
   height: 500px;
  }
+  
+ .team-member figcaption p{
+  font-size: 10px;
+ }
 }
 .team-member figure img{
   width: 100%;
