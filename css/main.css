@@ -1979,7 +1979,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 100%; }
   @media (max-width: 991px) {
     .home-about-left img {
-      margin-left: 10%;
+      margin-left: 0%;
       height: 50%; }
       .home-about-left h1{
           display:block;
