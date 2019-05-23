@@ -1713,7 +1713,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 100%; }
 
 .nav-menu ul li {
-  min-width: 160px;
+  min-width: 10px;
   text-align: left; }
 
 /* Nav Menu Arrows */
@@ -2080,7 +2080,7 @@ body.mobile-nav-active #mobile-nav-toggle {
         display: none; } }
   .feature-area .single-feature {
     
-    padding: 40px 30px;
+    padding: 5px;
     text-align: center;
      }
     @media (max-width: 991px) {
