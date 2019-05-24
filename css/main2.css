@@ -1810,15 +1810,17 @@ h1, h2, h3, h4, h5, h6 {
   color: black;
   font-weight: 900; }
 
-@media (max-width: 1200px) and (min-width: 948px){
+@media (max-width: 3000px) and (min-width: 948px){
   #mobile-nav-toggle {
-    display: inline; }
+    display: inline;
+    margin-right: 42px }
   #logo{
     margin-left: 22px;
   }
 
   #nav-menu-container {
-    display: none; } }
+    display: none;
+    padding-left: 20px } }
 
 @media (max-width: 947px){
   #mobile-nav-toggle {
